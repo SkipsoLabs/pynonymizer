@@ -125,7 +125,7 @@ jobs:
     runs-on: ubuntu-latest
     container: python:3.8-buster
     steps:
-    - uses: actions/download-artifact@v2
+    - uses: actions/download-artifact@v4.1.7
       with:
         name: dist
         path: dist
